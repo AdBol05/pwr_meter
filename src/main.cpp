@@ -9,17 +9,22 @@
 INA226 ina(0x40);
 DIYables_OLED_SSD1309 display(128, 64, &Wire, -1);
 
-long int short_interval = 10000;
-long int vent_interval = 15000;
-long int offset = 5000;
 
 int targetTemp = 55;
-
-int short_length = 45;
+long int vent_interval = 15000;
 int vent_length = 110;
+long int offset = 5000;
+long int short_interval = 10000;
+int short_length = 45;
+
 
 long int lastVent = 0;
 long int lastShort = 0;
+
+int data[6] =       {55, 15000, 110, 5000, 10000, 45};
+int increments[6] = {1, 1000, 10, 1000, 1000, 1};
+
+int cursor = 0;
 
 #define VENT 6
 #define SHORT 7
@@ -57,11 +62,6 @@ void setup() {
   pinMode(FAN, OUTPUT);
   pinMode(SWITCH, OUTPUT);
 
-  pinMode(UP, INPUT_PULLUP);
-  pinMode(DOWN, INPUT_PULLUP);
-  pinMode(PLUS, INPUT_PULLUP);
-  pinMode(MINUS, INPUT_PULLUP);
-
   /*Wire.write(0x0F);
   Wire.write(0x01);*/
   Wire.endTransmission();
@@ -82,6 +82,49 @@ void setup() {
   digitalWrite(SWITCH, HIGH);
 
   Serial.println("Time, Voltage, Current");
+}
+
+void setup1(){
+  delay(2000);
+
+  pinMode(UP, INPUT_PULLUP);
+  pinMode(DOWN, INPUT_PULLUP);
+  pinMode(PLUS, INPUT_PULLUP);
+  pinMode(MINUS, INPUT_PULLUP);
+}
+
+
+void update(){
+  if(data[cursor] <= 0){data[cursor] = increments[cursor];}
+  if (cursor > 5){cursor = 0;}
+  if (cursor < 0){cursor = 5;}
+  delay(150);
+}
+
+void loop1(){
+  if(millis() - lastVent > vent_interval){
+    lastVent = millis() - 1;
+    digitalWrite(VENT, HIGH);
+    delay(vent_length);
+    digitalWrite(VENT, LOW);
+  }
+
+  if(millis() - lastShort > short_interval){
+    lastShort = millis() - 1;
+    digitalWrite(SWITCH, LOW);
+    delay(3);
+    digitalWrite(SHORT, HIGH);
+    delay(short_length);
+    digitalWrite(SHORT, LOW);
+    delay(3);
+    digitalWrite(SWITCH, HIGH);
+  }
+
+  if(digitalRead(DOWN) == LOW){cursor++; update();}
+  if(digitalRead(UP) == LOW){cursor--; update();}
+  if(digitalRead(PLUS) == LOW){data[cursor] = data[cursor] + increments[cursor]; update();}
+  if(digitalRead(MINUS) == LOW){data[cursor] = data[cursor] - increments[cursor]; update();}
+  delay(10);
 }
 
 void loop() {
@@ -107,20 +150,27 @@ void loop() {
     display.setCursor(0, 17);
     display.print("---------------------");
     
+    if(cursor <= 3){display.setCursor(0, 25 + (cursor*10));}
+    else{display.setCursor(65, 25 + ((cursor - 4)*10));}
+    display.print(">");
+
     display.setCursor(0, 25);
-    display.print(" Tt: " + String(targetTemp));
+    display.print(" Tt: " + String(data[0]));
     display.setCursor(0, 35);
-    display.print(" Vi: " + String(vent_interval / 1000) + "s");
+    display.print(" Vi: " + String(data[1] / 1000) + "s");
     display.setCursor(0, 45);
-    display.print(" Vw: " + String(vent_length) + "ms");
+    display.print(" Vw: " + String(data[2]) + "ms");
     display.setCursor(0, 55);
-    display.print(" Ofst: " + String(offset / 1000) + "s");
+    display.print(" Ofst: " + String(data[3] / 1000) + "s");
     
     
     display.setCursor(65, 25);
-    display.print(" Si: " + String(short_interval / 1000) + "s");
+    display.print(" Si: " + String(data[4] / 1000) + "s");
     display.setCursor(65, 35);
-    display.print(" Sw: " + String(short_length) + "ms");
+    display.print(" Sw: " + String(data[5]) + "ms");
+
+    /*display.setCursor(65, 55);
+    display.print(String(cursor));*/
     
     display.display();
 
@@ -129,6 +179,12 @@ void loop() {
     Serial.print(String(voltage, 2));
     Serial.print(", ");
     Serial.println(String(current, 3));
+
+    if(temp > data[0] + 5){
+      if(temp > 80){analogWrite(FAN, 255);}
+      else{analogWrite(FAN, 128);}
+    }
+    else{analogWrite(FAN, 40);}
   
     delay(500);
   }
