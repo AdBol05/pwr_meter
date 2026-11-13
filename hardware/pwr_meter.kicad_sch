@@ -7523,12 +7523,6 @@
 		(uuid "46dff5f6-37bc-4dbc-9a2e-6c43ebd1ce10")
 	)
 	(junction
-		(at 332.74 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55290e98-e78c-40d5-8f2b-5d9c344752a6")
-	)
-	(junction
 		(at 44.45 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7661,12 +7655,6 @@
 		(uuid "9db2a231-742e-4c33-86a4-19c3c0d00d53")
 	)
 	(junction
-		(at 379.73 214.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fddc320-a48e-4b69-8664-134b46232f83")
-	)
-	(junction
 		(at 323.85 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7695,12 +7683,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abd2c4dd-47f0-42ca-83f9-f440aa27959a")
-	)
-	(junction
-		(at 377.19 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad31a5aa-49ee-4a05-8fa2-139f104eedf2")
 	)
 	(junction
 		(at 340.36 120.65)
@@ -7861,10 +7843,6 @@
 		(uuid "2d34ba57-20d6-43ac-9cda-52efdd728cbd")
 	)
 	(no_connect
-		(at 125.73 127)
-		(uuid "31f8becf-ad51-429e-ba39-1282737ae4c4")
-	)
-	(no_connect
 		(at 147.32 173.99)
 		(uuid "3713911d-b6e7-40c3-b446-42ffcdd3155b")
 	)
@@ -8020,16 +7998,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 29.21) (xy 312.42 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c069e80-38f1-44eb-a272-9aa21b4307e1")
-	)
-	(wire
-		(pts
 			(xy 363.22 217.17) (xy 377.19 217.17)
 		)
 		(stroke
@@ -8087,16 +8055,6 @@
 			(type default)
 		)
 		(uuid "15c5911a-5977-4526-8fba-ce353d014f29")
-	)
-	(wire
-		(pts
-			(xy 306.07 44.45) (xy 312.42 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15e894f5-d530-4bac-b69e-0b903a681fb6")
 	)
 	(wire
 		(pts
@@ -8347,16 +8305,6 @@
 			(type default)
 		)
 		(uuid "3ba8ac65-30b2-4cf6-b96d-7dfa53027f5b")
-	)
-	(wire
-		(pts
-			(xy 377.19 217.17) (xy 386.08 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e1b7d28-c151-4f0c-a347-7dbac8ce3991")
 	)
 	(wire
 		(pts
@@ -8740,16 +8688,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 29.21) (xy 332.74 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "631636ce-3daf-457e-969b-211f2cc7c954")
-	)
-	(wire
-		(pts
 			(xy 59.69 184.15) (xy 67.31 184.15)
 		)
 		(stroke
@@ -8967,16 +8905,6 @@
 			(type default)
 		)
 		(uuid "848cb782-b3c1-408a-b8ca-1bdbf8848dc8")
-	)
-	(wire
-		(pts
-			(xy 379.73 214.63) (xy 386.08 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8535a128-76fe-471e-b2ed-68fe9afff7c3")
 	)
 	(wire
 		(pts
@@ -9350,6 +9278,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 186.69) (xy 363.22 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2809fa1-51c9-44e1-b724-68e0cd8fb7ba")
+	)
+	(wire
+		(pts
 			(xy 123.19 83.82) (xy 119.38 83.82)
 		)
 		(stroke
@@ -9527,6 +9465,16 @@
 			(type default)
 		)
 		(uuid "ca78ccd7-e401-499b-ba1b-df73641b54af")
+	)
+	(wire
+		(pts
+			(xy 125.73 123.19) (xy 125.73 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caf9b102-1e27-4f73-9600-f84d210a46f5")
 	)
 	(wire
 		(pts
@@ -9978,6 +9926,16 @@
 		)
 		(uuid "03bcdd10-ff8a-4f77-82e4-e2ba5f8d41c1")
 	)
+	(label "ALERT"
+		(at 365.76 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03f22c35-f7f3-4797-bf7b-530337c9452a")
+	)
 	(label "SDA"
 		(at 370.84 214.63 0)
 		(effects
@@ -10148,15 +10106,15 @@
 		)
 		(uuid "378ac589-41f1-4a5a-b2a2-d2820c874d06")
 	)
-	(label "VENT"
-		(at 307.34 29.21 0)
+	(label "ALERT"
+		(at 125.73 123.19 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3b2d7f43-dd6d-4680-9708-568bd0c8c41d")
+		(uuid "3b94128e-fc28-479c-82bc-34b53ee73539")
 	)
 	(label "UP"
 		(at 148.59 22.86 0)
@@ -10477,16 +10435,6 @@
 			(justify left bottom)
 		)
 		(uuid "d6eae08d-b872-4919-a186-80e6eff2788d")
-	)
-	(label "SHORT"
-		(at 306.07 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d7990736-d42d-4791-b737-4accaf04c177")
 	)
 	(label "MOSI"
 		(at 57.15 34.29 0)
@@ -13463,108 +13411,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:GL0805UR01")
-		(at 327.66 29.21 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41876c3e-f23a-4b95-a6d8-ec2b1bf38f34")
-		(property "Reference" "LED_VENT1"
-			(at 328.422 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GL0805UR01"
-			(at 328.422 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C51933307_LED0805-R-RD_RED"
-			(at 327.66 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "None"
-			(at 329.946 29.337 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "GL0805UR01"
-			(at 327.66 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C51933307"
-			(at 327.66 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Guiguang light(桂光光电)"
-			(at 327.66 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "911741e3-c9b5-4ab2-a60b-55477cad4247")
-		)
-		(pin "2"
-			(uuid "33588c2d-78e6-4eba-b4db-cdb43718c862")
-		)
-		(instances
-			(project "pwr_meter"
-				(path "/05fc8f7a-b17a-45d4-848e-1fd08da608ec"
-					(reference "LED_VENT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lcsc_imported:744-81-04TB1B")
 		(at 127 73.66 90)
 		(unit 1)
@@ -13669,108 +13515,6 @@
 			(project "pwr_meter"
 				(path "/05fc8f7a-b17a-45d4-848e-1fd08da608ec"
 					(reference "FAN1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:GL0805UR01")
-		(at 327.66 44.45 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ee258c3-3729-4637-b51b-a46a3b9aff3b")
-		(property "Reference" "LED_SHORT1"
-			(at 328.422 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GL0805UR01"
-			(at 328.422 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C51933307_LED0805-R-RD_RED"
-			(at 327.66 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "None"
-			(at 329.946 44.577 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "GL0805UR01"
-			(at 327.66 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C51933307"
-			(at 327.66 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Guiguang light(桂光光电)"
-			(at 327.66 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "863e4df6-fd61-4cff-99be-1eda4e2d7289")
-		)
-		(pin "2"
-			(uuid "82e7f346-ce0f-4416-bddb-e779d16c2b6f")
-		)
-		(instances
-			(project "pwr_meter"
-				(path "/05fc8f7a-b17a-45d4-848e-1fd08da608ec"
-					(reference "LED_SHORT1")
 					(unit 1)
 				)
 			)
@@ -16079,84 +15823,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 332.74 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "744511d5-0ac6-452b-ad47-0e793de057db")
-		(property "Reference" "#PWR040"
-			(at 332.74 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 332.74 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 332.74 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 332.74 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 332.74 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40700f71-cea7-42ee-8907-db602b357330")
-		)
-		(instances
-			(project "pwr_meter"
-				(path "/05fc8f7a-b17a-45d4-848e-1fd08da608ec"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lcsc_imported:CR0603FA1000G")
 		(at 68.58 44.45 0)
 		(unit 1)
@@ -17723,109 +17389,6 @@
 			(project "pwr_meter"
 				(path "/05fc8f7a-b17a-45d4-848e-1fd08da608ec"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:CR0603FA1000G")
-		(at 317.5 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ca37cd4-9ec3-468a-9634-cca63dc89ae1")
-		(property "Reference" "R17"
-			(at 317.5 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CR0603FA1000G"
-			(at 317.5 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C100700_R0603"
-			(at 317.5 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_LIZ-Elec-CR0603FA1000G_C100700.pdf"
-			(at 315.214 29.083 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CR0603FA1000G"
-			(at 317.5 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C100700"
-			(at 317.5 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "LIZ(丽智电子)"
-			(at 317.5 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0a1bbfa8-1e0b-4839-8945-1dd048ac6b66")
-		)
-		(pin "1"
-			(uuid "8659bf6c-b65c-439e-a99f-6c0b2b1b8de9")
-		)
-		(instances
-			(project "pwr_meter"
-				(path "/05fc8f7a-b17a-45d4-848e-1fd08da608ec"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -21646,84 +21209,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Pads:Test Point")
-		(at 386.08 214.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd7e356f-606a-4493-8e1c-aaba610902e8")
-		(property "Reference" "SDA1"
-			(at 386.08 212.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "${FAMILY}"
-			(at 386.08 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 386.08 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 386.08 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Test Point"
-			(at 386.08 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77dcace0-a1e7-475a-83cb-8f57a37259a0")
-		)
-		(instances
-			(project "pwr_meter"
-				(path "/05fc8f7a-b17a-45d4-848e-1fd08da608ec"
-					(reference "SDA1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lcsc_imported:1N4007_C2892681")
 		(at 124.46 90.17 180)
 		(unit 1)
@@ -21898,186 +21383,6 @@
 			(project "pwr_meter"
 				(path "/05fc8f7a-b17a-45d4-848e-1fd08da608ec"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:CR0603FA1000G")
-		(at 317.5 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df6885d6-6855-45a9-ac97-e3ba878930bc")
-		(property "Reference" "R18"
-			(at 317.5 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CR0603FA1000G"
-			(at 317.5 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C100700_R0603"
-			(at 317.5 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_LIZ-Elec-CR0603FA1000G_C100700.pdf"
-			(at 315.214 44.323 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CR0603FA1000G"
-			(at 317.5 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C100700"
-			(at 317.5 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "LIZ(丽智电子)"
-			(at 317.5 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bb71ef2f-2c9a-4305-a1e4-9a14b3d88636")
-		)
-		(pin "1"
-			(uuid "bef8e7c3-1fc3-439f-8f9d-2ccea11f31d3")
-		)
-		(instances
-			(project "pwr_meter"
-				(path "/05fc8f7a-b17a-45d4-848e-1fd08da608ec"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Pads:Test Point")
-		(at 386.08 217.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e1fd981d-6fd9-4c2c-8840-8598d680c6c6")
-		(property "Reference" "SCL1"
-			(at 386.334 219.964 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "${FAMILY}"
-			(at 386.08 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 386.08 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 386.08 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Test Point"
-			(at 386.08 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ada09c4a-b971-4e7c-a023-0edea7ae3fa5")
-		)
-		(instances
-			(project "pwr_meter"
-				(path "/05fc8f7a-b17a-45d4-848e-1fd08da608ec"
-					(reference "SCL1")
 					(unit 1)
 				)
 			)
