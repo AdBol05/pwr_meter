@@ -657,7 +657,7 @@
         "uuid": "05fc8f7a-b17a-45d4-848e-1fd08da608ec"
       }
     ],
-    "used_designators": "U4,1V2,#PWR46-47,USBDM2,Card1,C7-10,C18-27,R11-12,R15,R19",
+    "used_designators": "R13-14,R20,R25-27",
     "variants": []
   },
   "sheets": [

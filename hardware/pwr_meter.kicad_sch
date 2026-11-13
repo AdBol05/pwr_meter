@@ -7415,12 +7415,6 @@
 		(uuid "061b70cc-6831-4d8d-8d4c-2085b468d4ce")
 	)
 	(junction
-		(at 50.8 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "097f3f0b-269f-40fd-9cfc-339a7a2026df")
-	)
-	(junction
 		(at 293.37 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7493,6 +7487,12 @@
 		(uuid "37736db9-5969-4bd7-b468-e185cf2b9f73")
 	)
 	(junction
+		(at 63.5 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38257c68-b730-469b-8688-bc68451f6b9c")
+	)
+	(junction
 		(at 111.76 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7553,6 +7553,12 @@
 		(uuid "64eb82db-ccf3-4152-a187-4d4d659ca66e")
 	)
 	(junction
+		(at 50.8 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66071e3a-9136-480e-a411-95d6fc3bd551")
+	)
+	(junction
 		(at 113.03 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7565,16 +7571,22 @@
 		(uuid "7092cc76-2f4a-448a-9ed4-6519f8d7eefe")
 	)
 	(junction
+		(at 76.2 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7186da4f-723a-4848-b13a-a3fa6395fc16")
+	)
+	(junction
 		(at 363.22 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7187d2a8-5c92-48dd-89e8-4a294e02f384")
 	)
 	(junction
-		(at 62.23 54.61)
+		(at 76.2 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "744fa3b2-5a72-4852-8c67-d087ac42a8ab")
+		(uuid "7588933c-7f4b-4b7c-81c8-20ac575aca30")
 	)
 	(junction
 		(at 292.1 194.31)
@@ -7593,6 +7605,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80d3dfd5-aa85-49a5-a638-fdca21ffc4bb")
+	)
+	(junction
+		(at 76.2 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "826d93fc-3102-444e-882a-f815dfa4e96d")
 	)
 	(junction
 		(at 237.49 30.48)
@@ -7673,12 +7691,6 @@
 		(uuid "a971d431-102b-469c-9291-5ba632eb497c")
 	)
 	(junction
-		(at 45.72 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab2c6c0a-145d-4c1d-b669-8ab9b7ddf5f9")
-	)
-	(junction
 		(at 119.38 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7709,6 +7721,12 @@
 		(uuid "bc81f80f-1bf6-421a-8b2b-35e87b592784")
 	)
 	(junction
+		(at 45.72 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c03c4450-afda-4423-ac5f-31166ac0b0a6")
+	)
+	(junction
 		(at 323.85 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7719,6 +7737,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c91fabc3-6938-4fae-9e91-e86c3ebd9e29")
+	)
+	(junction
+		(at 50.8 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "caabb14c-5862-4c60-86e1-b8fa5ded7b28")
 	)
 	(junction
 		(at 80.01 184.15)
@@ -7743,18 +7767,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2ed5774-13c9-470f-b59f-d9d0f321e1b2")
-	)
-	(junction
-		(at 62.23 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5ac8245-e4a5-4514-90b1-d9906897c3ae")
-	)
-	(junction
-		(at 62.23 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da69784e-4f1b-4287-935f-810f8358d006")
 	)
 	(junction
 		(at 44.45 166.37)
@@ -7865,7 +7877,7 @@
 		(uuid "40c37c56-b17c-41f1-b5f6-50f41e02ff25")
 	)
 	(no_connect
-		(at 62.23 24.13)
+		(at 76.2 29.21)
 		(uuid "552750d7-e212-4c3d-a986-db8666e98e94")
 	)
 	(no_connect
@@ -7905,7 +7917,7 @@
 		(uuid "dbf715ce-cc1d-4128-81c6-995a1a8e9e73")
 	)
 	(no_connect
-		(at 62.23 41.91)
+		(at 76.2 46.99)
 		(uuid "e355c167-b1c1-4e99-a71b-405752934168")
 	)
 	(no_connect
@@ -7928,6 +7940,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 31.75) (xy 76.2 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018bcb7f-4e2c-4cad-ba95-e0ebc2447534")
+	)
+	(wire
+		(pts
 			(xy 365.76 196.85) (xy 363.22 196.85)
 		)
 		(stroke
@@ -7935,6 +7957,16 @@
 			(type default)
 		)
 		(uuid "02604b86-497f-4820-b010-9811c25b5f84")
+	)
+	(wire
+		(pts
+			(xy 54.61 31.75) (xy 63.5 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042c13e6-7ea4-4016-9ca5-fafec9c1c2cc")
 	)
 	(wire
 		(pts
@@ -7988,16 +8020,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 29.21) (xy 62.23 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bd87740-5f82-43a0-b5c0-e26e22db8e26")
-	)
-	(wire
-		(pts
 			(xy 307.34 29.21) (xy 312.42 29.21)
 		)
 		(stroke
@@ -8028,7 +8050,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 46.99) (xy 62.23 49.53)
+			(xy 76.2 52.07) (xy 76.2 54.61)
 		)
 		(stroke
 			(width 0)
@@ -8075,16 +8097,6 @@
 			(type default)
 		)
 		(uuid "15e894f5-d530-4bac-b69e-0b903a681fb6")
-	)
-	(wire
-		(pts
-			(xy 57.15 39.37) (xy 62.23 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17b40bff-a0fc-425f-b7ad-fcd742d55b64")
 	)
 	(wire
 		(pts
@@ -8278,6 +8290,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 34.29) (xy 63.5 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c87523-7331-4a80-9287-176351fcbfb6")
+	)
+	(wire
+		(pts
 			(xy 171.45 22.86) (xy 177.8 22.86)
 		)
 		(stroke
@@ -8458,7 +8480,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 36.83) (xy 62.23 36.83)
+			(xy 49.53 49.53) (xy 63.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d509c3-0a67-4d1f-9680-962e9fe8329e")
+	)
+	(wire
+		(pts
+			(xy 45.72 41.91) (xy 76.2 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8588,7 +8620,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 49.53) (xy 62.23 52.07)
+			(xy 76.2 54.61) (xy 76.2 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8678,7 +8710,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 26.67) (xy 50.8 31.75)
+			(xy 50.8 31.75) (xy 50.8 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8728,16 +8760,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 34.29) (xy 62.23 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64e39787-1c8c-438c-8d13-10f96412f457")
-	)
-	(wire
-		(pts
 			(xy 300.99 184.15) (xy 312.42 184.15)
 		)
 		(stroke
@@ -8755,6 +8777,16 @@
 			(type default)
 		)
 		(uuid "67276fd2-fcd9-410b-ae53-60b7237b6e29")
+	)
+	(wire
+		(pts
+			(xy 73.66 49.53) (xy 76.2 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e7c224-da2f-4d53-82fe-a5095c323772")
 	)
 	(wire
 		(pts
@@ -8848,16 +8880,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 26.67) (xy 62.23 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78c2d1b9-7ef0-4533-8dd2-a9602127e4a9")
-	)
-	(wire
-		(pts
 			(xy 80.01 166.37) (xy 80.01 184.15)
 		)
 		(stroke
@@ -8895,6 +8917,16 @@
 			(type default)
 		)
 		(uuid "7d6324e5-765f-418d-87ff-1a4ea0fad4fd")
+	)
+	(wire
+		(pts
+			(xy 50.8 21.59) (xy 50.8 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ed479d1-753f-406a-a5b6-1d5d4ac6483f")
 	)
 	(wire
 		(pts
@@ -8968,7 +9000,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 26.67) (xy 50.8 26.67)
+			(xy 45.72 31.75) (xy 50.8 31.75)
 		)
 		(stroke
 			(width 0)
@@ -9058,6 +9090,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 44.45) (xy 63.5 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ecd4509-ebe8-47f3-b56d-801220a47b95")
+	)
+	(wire
+		(pts
 			(xy 125.73 78.74) (xy 125.73 83.82)
 		)
 		(stroke
@@ -9138,6 +9180,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 39.37) (xy 76.2 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac173a4-be8a-484b-8436-e34ba25aaff0")
+	)
+	(wire
+		(pts
 			(xy 240.03 251.46) (xy 260.35 251.46)
 		)
 		(stroke
@@ -9178,7 +9230,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 52.07) (xy 62.23 54.61)
+			(xy 76.2 57.15) (xy 76.2 59.69)
 		)
 		(stroke
 			(width 0)
@@ -9288,6 +9340,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 39.37) (xy 63.5 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e8b086-0650-40b7-ae17-e3e7664374db")
+	)
+	(wire
+		(pts
 			(xy 123.19 83.82) (xy 119.38 83.82)
 		)
 		(stroke
@@ -9305,6 +9367,16 @@
 			(type default)
 		)
 		(uuid "b3babb04-1bc9-48d9-a02a-27013ba407e0")
+	)
+	(wire
+		(pts
+			(xy 73.66 44.45) (xy 76.2 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ed7544-5b95-46af-9541-c61dbbcf0579")
 	)
 	(wire
 		(pts
@@ -9335,6 +9407,16 @@
 			(type default)
 		)
 		(uuid "b706dd5b-4c11-4f30-a2be-3d67275e4812")
+	)
+	(wire
+		(pts
+			(xy 73.66 34.29) (xy 76.2 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb565177-5d36-49aa-a31f-65bb7484ca62")
 	)
 	(wire
 		(pts
@@ -9445,16 +9527,6 @@
 			(type default)
 		)
 		(uuid "ca78ccd7-e401-499b-ba1b-df73641b54af")
-	)
-	(wire
-		(pts
-			(xy 49.53 44.45) (xy 62.23 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc85b941-8b7f-41da-aabf-f37939b269af")
 	)
 	(wire
 		(pts
@@ -9598,7 +9670,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 31.75) (xy 50.8 31.75)
+			(xy 76.2 36.83) (xy 50.8 36.83)
 		)
 		(stroke
 			(width 0)
@@ -9655,6 +9727,16 @@
 			(type default)
 		)
 		(uuid "ebcc195e-aad1-435c-b0d9-9d17c7f67cea")
+	)
+	(wire
+		(pts
+			(xy 50.8 21.59) (xy 63.5 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed511c56-5171-4962-a9df-e925bd4193e6")
 	)
 	(wire
 		(pts
@@ -10237,7 +10319,7 @@
 		(uuid "a588dca0-0c84-40a6-a3d0-ba0315b0cbff")
 	)
 	(label "SD_CS"
-		(at 54.61 26.67 0)
+		(at 54.61 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10267,7 +10349,7 @@
 		(uuid "ad618e8b-6edf-4e56-af9f-67edd3809c8e")
 	)
 	(label "SCK"
-		(at 57.15 34.29 0)
+		(at 57.15 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10407,7 +10489,7 @@
 		(uuid "d7990736-d42d-4791-b737-4accaf04c177")
 	)
 	(label "MOSI"
-		(at 57.15 29.21 0)
+		(at 57.15 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10457,7 +10539,7 @@
 		(uuid "e3f399d7-4989-4c93-8468-e062d402977a")
 	)
 	(label "SD_DETECT"
-		(at 49.53 44.45 0)
+		(at 49.53 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10487,7 +10569,7 @@
 		(uuid "ec5d1d77-341a-4e7e-a8fe-4d628806ba58")
 	)
 	(label "MISO"
-		(at 57.15 39.37 0)
+		(at 57.15 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10915,6 +10997,108 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:CR0603FA1000G")
+		(at 68.58 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "04da8da1-7912-4f54-9ef5-47c2bb55847d")
+		(property "Reference" "R14"
+			(at 73.2573 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR0603FA1000G"
+			(at 68.58 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C100700_R0603"
+			(at 68.58 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_LIZ-Elec-CR0603FA1000G_C100700.pdf"
+			(at 66.294 39.243 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CR0603FA1000G"
+			(at 68.58 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C100700"
+			(at 68.58 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "LIZ(丽智电子)"
+			(at 68.58 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "88636215-2cce-43ac-b204-05ba00bb49dc")
+		)
+		(pin "1"
+			(uuid "44eff484-c428-4d0c-84a6-d1bafa6d6c2b")
+		)
+		(instances
+			(project "pwr_meter"
+				(path "/05fc8f7a-b17a-45d4-848e-1fd08da608ec"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc_imported:XT30PW-F")
 		(at 144.78 167.64 0)
 		(unit 1)
@@ -11309,7 +11493,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 50.8 26.67 0)
+		(at 50.8 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11317,10 +11501,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "112ef539-72ea-4df2-8168-de3279bf5364")
 		(property "Reference" "#PWR026"
-			(at 50.8 30.48 0)
+			(at 50.8 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11331,7 +11514,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 50.8 21.59 0)
+			(at 46.99 19.558 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11341,7 +11524,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 26.67 0)
+			(at 50.8 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11352,7 +11535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 26.67 0)
+			(at 50.8 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11363,7 +11546,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 50.8 26.67 0)
+			(at 50.8 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11380,6 +11563,210 @@
 			(project "pwr_meter"
 				(path "/05fc8f7a-b17a-45d4-848e-1fd08da608ec"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:CR0603FA1000G")
+		(at 68.58 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13471119-d4d6-46aa-8cdb-ce953436816f")
+		(property "Reference" "R26"
+			(at 73.152 51.054 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR0603FA1000G"
+			(at 68.58 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C100700_R0603"
+			(at 68.58 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_LIZ-Elec-CR0603FA1000G_C100700.pdf"
+			(at 66.294 49.403 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CR0603FA1000G"
+			(at 68.58 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C100700"
+			(at 68.58 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "LIZ(丽智电子)"
+			(at 68.58 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f6743455-b1e7-4440-b43a-06541db202f6")
+		)
+		(pin "1"
+			(uuid "ad1d6e4f-1dbb-4687-b60a-a1f9c3223ac2")
+		)
+		(instances
+			(project "pwr_meter"
+				(path "/05fc8f7a-b17a-45d4-848e-1fd08da608ec"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:CR0603FA1000G")
+		(at 68.58 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "14f98dda-f7af-4ec5-a5ad-7cb8f7df3ea8")
+		(property "Reference" "R25"
+			(at 72.898 29.464 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR0603FA1000G"
+			(at 68.58 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C100700_R0603"
+			(at 68.58 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_LIZ-Elec-CR0603FA1000G_C100700.pdf"
+			(at 66.294 31.623 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CR0603FA1000G"
+			(at 68.58 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C100700"
+			(at 68.58 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "LIZ(丽智电子)"
+			(at 68.58 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8c54f537-7e52-4538-8bbc-b7a34dd8263a")
+		)
+		(pin "1"
+			(uuid "a07bc622-66e7-4066-8bec-9262b77a85b4")
+		)
+		(instances
+			(project "pwr_meter"
+				(path "/05fc8f7a-b17a-45d4-848e-1fd08da608ec"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -12528,6 +12915,108 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:CR0603FA1000G")
+		(at 68.58 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "38d11730-bbe1-48dd-8f69-e189aa7ce0f8")
+		(property "Reference" "R13"
+			(at 73.152 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR0603FA1000G"
+			(at 68.58 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C100700_R0603"
+			(at 68.58 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_LIZ-Elec-CR0603FA1000G_C100700.pdf"
+			(at 66.294 34.163 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CR0603FA1000G"
+			(at 68.58 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C100700"
+			(at 68.58 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "LIZ(丽智电子)"
+			(at 68.58 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fa10503e-85c9-4378-b565-997106f92a1f")
+		)
+		(pin "1"
+			(uuid "58928630-7417-41a2-a12f-a30df1819fdf")
+		)
+		(instances
+			(project "pwr_meter"
+				(path "/05fc8f7a-b17a-45d4-848e-1fd08da608ec"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Pads:Test Point")
 		(at 289.56 166.37 0)
 		(unit 1)
@@ -12897,7 +13386,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 54.61 0)
+		(at 76.2 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12908,7 +13397,7 @@
 		(fields_autoplaced yes)
 		(uuid "405bb762-be66-439f-800b-a72c1c670f60")
 		(property "Reference" "#PWR046"
-			(at 62.23 60.96 0)
+			(at 76.2 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12919,7 +13408,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 59.69 0)
+			(at 76.2 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12929,7 +13418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 54.61 0)
+			(at 76.2 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12940,7 +13429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 54.61 0)
+			(at 76.2 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12951,7 +13440,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 54.61 0)
+			(at 76.2 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14107,7 +14596,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:TF-115-BCP9")
-		(at 73.66 39.37 0)
+		(at 87.63 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14118,7 +14607,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c251786-4a41-49b6-a064-cadb67e7727b")
 		(property "Reference" "Card1"
-			(at 83.82 38.0999 0)
+			(at 97.79 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14129,7 +14618,7 @@
 			)
 		)
 		(property "Value" "TF-115-BCP9"
-			(at 83.82 40.6399 0)
+			(at 97.79 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14140,7 +14629,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C720505_TF-SMD_TF-115-BCP9"
-			(at 73.66 49.53 0)
+			(at 87.63 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14151,7 +14640,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2109061830_XUNPU-TF-115-BCP9_C720505.pdf"
-			(at 71.374 39.243 0)
+			(at 85.344 44.323 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14162,7 +14651,7 @@
 			)
 		)
 		(property "Description" "TF-115-BCP9"
-			(at 73.66 39.37 0)
+			(at 87.63 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14173,7 +14662,7 @@
 			)
 		)
 		(property "LCSC" "C720505"
-			(at 73.66 39.37 0)
+			(at 87.63 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14184,7 +14673,7 @@
 			)
 		)
 		(property "Manufacturer" "XUNPU(讯普)"
-			(at 73.66 39.37 0)
+			(at 87.63 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15668,6 +16157,108 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:CR0603FA1000G")
+		(at 68.58 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7447aa5b-987e-4cf7-af41-a71334745083")
+		(property "Reference" "R20"
+			(at 73.152 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR0603FA1000G"
+			(at 68.58 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C100700_R0603"
+			(at 68.58 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_LIZ-Elec-CR0603FA1000G_C100700.pdf"
+			(at 66.294 44.323 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CR0603FA1000G"
+			(at 68.58 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C100700"
+			(at 68.58 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "LIZ(丽智电子)"
+			(at 68.58 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "20852f36-0418-44aa-a81a-033f5b3b5d93")
+		)
+		(pin "1"
+			(uuid "76ab4f39-eb43-43d5-82bf-73b8002a6729")
+		)
+		(instances
+			(project "pwr_meter"
+				(path "/05fc8f7a-b17a-45d4-848e-1fd08da608ec"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 246.38 60.96 270)
 		(unit 1)
@@ -16773,7 +17364,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:LMK107BBJ106MALT")
-		(at 45.72 31.75 0)
+		(at 45.72 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16783,7 +17374,7 @@
 		(dnp no)
 		(uuid "8695b1e9-a320-406e-a14a-28b4dd93ea95")
 		(property "Reference" "C2"
-			(at 41.148 30.226 0)
+			(at 41.148 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16794,7 +17385,7 @@
 			)
 		)
 		(property "Value" "LMK107BBJ106MALT"
-			(at 49.53 33.0199 0)
+			(at 49.53 38.0999 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16806,7 +17397,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C195004_C0603"
-			(at 45.72 41.91 0)
+			(at 45.72 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16817,7 +17408,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912112237_Taiyo-Yuden-LMK107BBJ106MALT_C195004.pdf"
-			(at 43.434 31.623 0)
+			(at 43.434 36.703 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16828,7 +17419,7 @@
 			)
 		)
 		(property "Description" "LMK107BBJ106MALT"
-			(at 45.72 31.75 0)
+			(at 45.72 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16839,7 +17430,7 @@
 			)
 		)
 		(property "LCSC" "C195004"
-			(at 45.72 31.75 0)
+			(at 45.72 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16850,7 +17441,7 @@
 			)
 		)
 		(property "Manufacturer" "TAIYO YUDEN(太诱)"
-			(at 45.72 31.75 0)
+			(at 45.72 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16877,7 +17468,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 36.83 0)
+		(at 45.72 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16888,7 +17479,7 @@
 		(fields_autoplaced yes)
 		(uuid "869cb283-f3cd-4b6f-823b-d72480d889f2")
 		(property "Reference" "#PWR027"
-			(at 45.72 43.18 0)
+			(at 45.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16899,7 +17490,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 41.91 0)
+			(at 45.72 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16909,7 +17500,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 36.83 0)
+			(at 45.72 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16920,7 +17511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 36.83 0)
+			(at 45.72 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16931,7 +17522,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 36.83 0)
+			(at 45.72 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20522,6 +21113,111 @@
 			(project "pwr_meter"
 				(path "/05fc8f7a-b17a-45d4-848e-1fd08da608ec"
 					(reference "TESTEN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:RTT03103JTP")
+		(at 63.5 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6f25631-a847-409c-b4fa-48b5b704c533")
+		(property "Reference" "R27"
+			(at 66.04 25.3999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RTT03103JTP"
+			(at 66.04 27.9399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C103210_R0603"
+			(at 73.66 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_RALEC-RTT03103JTP_C103210.pdf"
+			(at 63.373 28.956 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RTT03103JTP"
+			(at 63.5 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C103210"
+			(at 63.5 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "RALEC(旺诠)"
+			(at 63.5 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff85e146-8d79-489d-949a-c25d0b1e5a21")
+		)
+		(pin "2"
+			(uuid "fb22ac84-5db3-4419-99b6-a34a04b96025")
+		)
+		(instances
+			(project "pwr_meter"
+				(path "/05fc8f7a-b17a-45d4-848e-1fd08da608ec"
+					(reference "R27")
 					(unit 1)
 				)
 			)
