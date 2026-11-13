@@ -30,12 +30,21 @@ int cursor = 0;
 #define SHORT 7
 #define SWITCH 8
 #define TEMP 26
-#define FAN 14
+#define FAN 25
 
 #define PLUS 10
 #define MINUS 11
 #define UP 12
 #define DOWN 13
+
+#define MISO 0
+#define SCK 2
+#define MOSI 3
+#define SD_CS 4
+#define SD_DETECT 5
+#define SD_LED 9
+
+#define TEMP_TYPE 15
 
 bool inastatus = false;
 
